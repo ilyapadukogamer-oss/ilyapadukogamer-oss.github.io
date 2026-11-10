@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ilya’s personal homepage. First-year IT student at Inha University in Tashkent.">
+  <title>Ilya — IT Student</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top"><span aria-hidden="true">I</span> ilya<span class="wordmark-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.9 13.3A9 9 0 0 1 10.7 3.1 9 9 0 1 0 20.9 13.3Z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="shell" id="main">
+    <section class="hero" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <p class="badge"><span></span> FIRST-YEAR IT STUDENT</p>
+        <h1 id="intro-title">Hi, I’m <em>Ilya.</em></h1>
+        <p class="hero-description">I study IT at Inha University in Tashkent. This is where I share what I’m learning and what I’m building along the way.</p>
+        <a class="button" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="art-caption">FIG. 01 <span> / </span> THE BUILDING BLOCKS</span>
+        <svg class="blueprint" viewBox="0 0 400 300" fill="none">
+          <defs>
+            <linearGradient id="cube-top" x1="100" y1="50" x2="280" y2="170" gradientUnits="userSpaceOnUse"><stop stop-color="#8fbbff"/><stop offset="1" stop-color="#d4e6ff"/></linearGradient>
+            <linearGradient id="cube-front" x1="120" y1="105" x2="224" y2="207" gradientUnits="userSpaceOnUse"><stop stop-color="#4487ff"/><stop offset="1" stop-color="#1f52d5"/></linearGradient>
+          </defs>
+          <g stroke="currentColor" opacity=".35" stroke-dasharray="4 6">
+            <path d="M200 23v255M47 135h305M76 213l246-143M76 71l246 143"/>
+            <ellipse cx="200" cy="190" rx="149" ry="74"/>
+          </g>
+          <g stroke="currentColor" opacity=".58">
+            <path d="m200 162 110 63-110 63-110-63 110-63Zm-88 76 110-63m-88 76 110-63m-88 76 110-63m-88 76 110-63m-110-39 110 63m-132-50 110 63m-132-50 110 63m-132-50 110 63"/>
+            <path d="M90 225v11l110 63 110-63v-11M200 288v11"/>
+          </g>
+          <g stroke="#2460e4" stroke-width="1.5" stroke-linejoin="round">
+            <path d="m200 46 90 52-90 52-90-52z" fill="url(#cube-top)"/>
+            <path d="m110 98 90 52v86l-90-52z" fill="url(#cube-front)"/>
+            <path d="m200 150 90-52v86l-90 52z" fill="#153dad"/>
+          </g>
+          <g stroke="#d6e7ff" opacity=".45">
+            <path d="m155 72 90 52m-113-39 90 52m-45-78 90 52m-112 13 90-52m-113 39 90-52m-45 78 90-52"/>
+            <path d="m110 127 90 52 90-52m-180 29 90 52 90-52m-150-41v86m30-69v86m60-86v86m30-103v86"/>
+          </g>
+          <g fill="currentColor"><circle cx="76" cy="71" r="3"/><circle cx="322" cy="70" r="3"/><circle cx="322" cy="214" r="3"/><circle cx="76" cy="213" r="3"/><circle cx="200" cy="23" r="3"/></g>
+        </svg>
+        <span class="art-index">01 / ∞</span>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">01 / INTRODUCTION</p>
+        <h2 id="about-title">About Me</h2>
+        <p class="section-copy">I’m at the start of my IT degree. I’m interested in how software is put together and how a small idea becomes something you can actually use. I built this homepage as a place to try things out and keep track of my progress.</p>
+      </div>
+      <dl class="profile">
+        <div><dt>University</dt><dd>Inha University in Tashkent</dd></div>
+        <div><dt>Field of study</dt><dd>Information Technology</dd></div>
+        <div><dt>Year</dt><dd>First year</dd></div>
+      </dl>
+    </section>
+
+    <section class="section" id="courses" aria-labelledby="courses-title">
+      <p class="eyebrow">02 / STUDY NOTES</p>
+      <h2 id="courses-title">My Courses</h2>
+      <p class="section-copy">Topics I’d like to explore as I work through my IT degree.</p>
+      <div class="course-grid">
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">&lt;/&gt;</span>
+          <h3>Programming Fundamentals</h3>
+          <p>Writing small programs with variables, loops, functions, and a little debugging.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">∑</span>
+          <h3>Mathematics for IT</h3>
+          <p>Using logic and mathematical reasoning to break down computing problems.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">#</span>
+          <h3>Web Development</h3>
+          <p>Building responsive pages with HTML, CSS, and JavaScript.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <p class="eyebrow">03 / HANDS-ON WORK</p>
+      <h2 id="projects-title">Projects</h2>
+      <div class="project">
+        <div>
+          <p class="eyebrow">PROJECT 01</p>
+          <h3>Personal Homepage</h3>
+          <p>A responsive homepage with a theme switch, built with HTML, CSS, and JavaScript.</p>
+          <ul class="tags" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </div>
+        <a class="text-link" href="#top">Back to the homepage <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel">
+        <p class="eyebrow">04 / SAY HELLO</p>
+        <h2 id="contact-title">Contact</h2>
+        <!-- Add your preferred email or profile link here when you’re ready to share it. -->
+        <p>My contact details will be here soon.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell site-footer">
+    <span>© Ilya</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
